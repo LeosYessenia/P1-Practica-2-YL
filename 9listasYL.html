@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!-- Indica que el tipo de documento es HTML -->
+<html lang="en"> <!-- Indica el idioma de la pagina -->
+
+<head> <!-- Informacion y datos del sitio que no se ven directamente -->
+    <meta charset="UTF-8"> <!-- Sirve para reconocer acentos y la letra ñ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la pagina a pantallas de celulares o tablets -->
+    <title>Tipos de listas en HTML</title> <!-- Define el titulo que sale en la pestaña -->
+</head> <!-- Cierre del head -->
+
+<body> <!-- Cuerpo de la pagina, todo el contenido visible -->
+    <h1>Tipos de listas</h1> <!-- Titulo principal -->
+    <h2>Listas ordenadas</h2> <!-- Subtitulo -->
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p> <!-- Parrafo explicativo -->
+    
+    <ol> <!-- Crea una lista con numeros -->
+        <li>Luna Arias </li> <!-- Elemento de la lista -->
+        <li>Franco Andrea</li> <!-- Elemento de la lista -->
+        <li>Granados Evelyn</li> <!-- Elemento de la lista -->
+    </ol> <!-- Cierre de la lista con numeros -->
+
+    <h2>Listas no ordenadas</h2> <!-- Subtitulo -->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico
+    </p> <!-- Parrafo explicativo -->
+    
+    <ul> <!-- Crea una lista con viñetas o puntos -->
+        <li>C</li> <!-- Elemento de la lista -->
+        <li>C++</li> <!-- Elemento de la lista -->
+        <li>Python</li> <!-- Elemento de la lista -->
+    </ul> <!-- Cierre de la lista con viñetas -->
+
+    <h2>Lista de definiciones</h2> <!-- Subtitulo -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p> <!-- Parrafo explicativo -->
+    
+    <dl> <!-- Crea una lista de definicion -->
+        <!-- Primer termino-->
+        <dt>C++</dt> <!-- Nombre del termino a definir -->
+        <!-- Definicion del primer termino-->
+        <dd> <!-- Muestra la definicion del termino -->
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+        
+        <!-- Segundo termino-->
+        <dt>Java</dt> <!-- Nombre del termino a definir -->
+        <!-- Definicion del segundo termino-->
+        <dd> <!-- Muestra la definicion del termino -->
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+        
+        <!-- Tercer termino-->
+        <dt>JavaScript</dt> <!-- Nombre del termino a definir -->
+        <!-- Definicion del tercer termino-->
+        <dd> <!-- Muestra la definicion del termino -->
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+    </dl> <!-- Cierre de la lista de definicion -->
+
+    <h2>Listas anidadas</h2> <!-- Subtitulo -->
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p> <!-- Parrafo explicativo -->
+    
+    <ol> <!-- Lista principal numerada -->
+        <li>Argentina <!-- Elemento de la lista principal -->
+            <ul> <!-- Lista con viñetas metida dentro de Argentina -->
+                <li>Buenos aires</li> <!-- Sub-elemento -->
+                <li>La plata</li> <!-- Sub-elemento -->
+                <li>Mendoza</li> <!-- Sub-elemento -->
+            </ul> <!-- Cierre de la sub-lista -->
+        </li>
+        
+        <li>España <!-- Elemento de la lista principal -->
+            <ul> <!-- Lista con viñetas metida dentro de España -->
+                <li>Barcelona</li> <!-- Sub-elemento -->
+                <li>Madrid</li> <!-- Sub-elemento -->
+                <li>Sevilla</li> <!-- Sub-elemento -->
+            </ul> <!-- Cierre de la sub-lista -->
+        </li>
+        
+        <li>Mexico <!-- Elemento de la lista principal -->
+            <ul> <!-- Lista con viñetas metida dentro de Mexico -->
+                <li>Chihuahua</li> <!-- Sub-elemento -->
+                <li>Cd. Juarez</li> <!-- Sub-elemento -->
+                <li>Hermosillo</li> <!-- Sub-elemento -->
+            </ul> <!-- Cierre de la sub-lista -->
+        </li>
+    </ol> <!-- Cierre de la lista principal -->
+</body> <!-- Cierre del cuerpo -->
+
+</html> <!-- Cierre de la pagina -->
